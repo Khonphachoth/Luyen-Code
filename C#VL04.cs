@@ -1,18 +1,21 @@
 using System;
-namespace
+
+namespace ngay3
 {
     class Program
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
-           var s = Console.ReadLine();
-            int n = Convert.ToInt32(s);
-            double sum = 0;
-            int sum = 0;
-            for(int i = 2; i <= n; i++)
-                sum = sum + 1/(i*1.0);
-            Console.WriteLine(sum.ToString("0.0000"));
-            Console.ReadLine();
+            string s1 = Console.ReadLine();
+            double n = Convert.ToInt32(s1);
+            float s = 0;
+            int i = 2;
+            while (i <= n)
+            {
+                s = s + 1 / (float)i;
+                i++;
+            }
+            Console.WriteLine(decimal.Parse(s.ToString("0.0000")));
         }
     }
 }
