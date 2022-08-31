@@ -1,6 +1,6 @@
 using System;
 
-namespace ngay3
+namespace VL04
 {
     class Program
     {
