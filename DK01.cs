@@ -1,5 +1,5 @@
 ﻿using System;
-namespace DK08
+namespace DK01
 {
     class Program
     {
